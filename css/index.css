@@ -189,6 +189,12 @@ main {
   text-align: center;
 }
 
+.footer_row a {
+  font-size: 12px;
+  color: #505050;
+  text-decoration: none;
+}
+
 #form_header a {
   font-weight: 300;
   line-height: 1.2;
@@ -282,7 +288,7 @@ input {
   color: #fff;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
   min-width: 100px;
-  padding: 6px 12px;
+  padding: 6px 12px 6px 12px;
   line-height: 1.428571429;
   white-space: nowrap;
   vertical-align: middle;
@@ -335,8 +341,4 @@ footer {
   padding-top: 5px;
 }
 
-.footer_row a {
-  font-size: 12px;
-  color: #505050;
-  text-decoration: none;
-}
+
