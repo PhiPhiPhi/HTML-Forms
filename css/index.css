@@ -1,9 +1,10 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   outline: 0;
-}
+} 
 
 body {
   background: #eceef1;
@@ -340,5 +341,3 @@ footer {
   padding-bottom: 0;
   padding-top: 5px;
 }
-
-
