@@ -100,18 +100,15 @@ main {
 }
 
 #mint_logo {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/mint-favicon.svg)
-    no-repeat;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/mint-favicon.svg) no-repeat;
 }
 
 #quickbooks_logo {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/quickbooks-favicon@2x.svg)
-    no-repeat;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/quickbooks-favicon@2x.svg) no-repeat;
 }
 
 #turbotax_logo {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/tt-favicon@2x.svg)
-    no-repeat;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/tt-favicon@2x.svg) no-repeat;
 }
 
 .small_icons {
@@ -123,22 +120,19 @@ main {
 }
 
 #mint_text {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/mint-text.svg)
-    no-repeat;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/mint-text.svg) no-repeat;
   width: 37px;
   height: 20px;
 }
 
 #quickbooks_text {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/quick-books-text.svg)
-    no-repeat;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/quick-books-text.svg) no-repeat;
   width: 98px;
   height: 22px;
 }
 
 #turbotax_text {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/turbo-tax-text.svg)
-    no-repeat;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/turbo-tax-text.svg) no-repeat;
   width: 74px;
   height: 22px;
 }
@@ -242,8 +236,7 @@ input {
 }
 
 #lock_open_icon {
-  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/lock-left-grey@3x.png)
-    0 50%/21px 21px no-repeat;
+  background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.2.9/images/lock-left-grey@3x.png) 0 50%/21px 21px no-repeat;
   width: 33px;
   position: absolute;
   right: 1px;
