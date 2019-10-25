@@ -24,76 +24,95 @@
         </div>
       </header>
       <main>
-          <a href="#" id="intuit_logo"></a>
-        <div>
-          <span id="mint_logo"></span>
-          <span>mint</span>
-          <span id="quickbooks_logo"></span>
-          <span>quickbooks</span>
-          <span id="turbotax_logo"></span>
-          <span>turbotax</span>
+        <div id="intuit_logo_container">
+            <a href="#" id="intuit_logo"></a>
+        </div>
+          
+        <div id="header_logo_list">
+<div id="mint_header_logo">
+    <span id="mint_logo" class=" small_icons header_logo_list_item"></span>
+    <span id="mint_text" class=" header_logo_text header_logo_list_item"></span>
+</div>
+<div id="quickbooks_header_logo">
+    <span id="quickbooks_logo" class="small_icons  header_logo_list_item"></span>
+    <span id="quickbooks_text" class="header_logo_text header_logo_list_item"></span>
+</div>
+<div id="turbotax_header_logo">
+    <span id="turbotax_logo" class="small_icons header_logo_list_item"></span>
+    <span id="turbotax_text" class="header_logo_text header_logo_list_item"></span>
+</div>
+
+
         </div>
         <div id="form_container">
           <div id="form_header">
-            <h1></h1>
-            <h3></h3>
-            <a href=""></a>
+            <h1>Create an Intuit account</h1>
+            <h3>One account for everything Intuit, including Mint.</h3>
+            <a href="#" class="small_info_link">Learn more</a>
           </div>
           <form action="/signin" method="post">
             <div>
-              <label for="email"
-                >Email address
-                <input type="email" name="email-address" id="email" />
-              </label>
+              <label for="email">Email address</label>
+              <div id="input_container">
+                  <input type="email" name="email-address" id="email" />
+              </div>
+              <span id="error_space"></span>
+              
             </div>
             <div>
-              <label for="phone"
-                >Phone (recommended)
-                <input type="tel" name="phone-number" id="phone-number" />
+              <label for="phone">Phone (recommended)</label>
+              <div id="input_container">
+                  <input type="tel" name="phone-number" id="phone-number" />
+              </div>
                 <span id="phone_notice"
-                  >Standard call, messaging or data rates may apply.</span
-                >
-              </label>
+                  >Standard call, messaging or data rates may apply.</span>
+                  <span id="error_space"></span>
+              
             </div>
             <div>
-              <label
-                >Password <input type="password" name="password" /><span
-                  id="lock_open_icon"
-                ></span>
-              </label>
+              <label>Password </label>
+              <div id="input_container">
+                  <input type="password" name="password" /><span
+                  id="lock_open_icon"></span>
+
+              </div>
+              <span id="error_space"></span>
+                
+              
             </div>
-            <div class="button">
-              <span id="lock_closed_icon"></span
-              ><button type="submit">Create account</button>
-            </div>
+            <button id="sign_up_button" class="button">
+              <span id="lock_closed_icon"></span>
+              <span id="signup_btn_text" type="submit">Create account</span>
+              </button>
+              <span id="error_space"></span>
           </form>
           <div id="tac">
             <p>
-              By clicking Create account, you agree to our
-              <a href="">Terms</a> and have read and acknowledge our
-              <a href="">Privacy Statement.</a>
+              By clicking Create account, you agree to our<br>
+              <a href="#" class="small_info_link">Terms</a> and have read and acknowledge our
+              <a href="#" class="small_info_link">Privacy<br> Statement.</a>
             </p>
           </div>
           <div id="form_footer">
             <p>
-              Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and
-              <a href="">Terms of use</a>
+              Invisible reCAPTCHA by Google <a href="#" class="small_info_link">Privacy Policy</a> and
+              <a href="#" class="small_info_link">Terms of use</a>
             </p>
           </div>
         </div>
       </main>
       <footer>
-        <span>
+        <span class="footer_row">
           <a href="">Legal</a>
           <a href="">Privacy</a>
           <a href="">Security</a>
         </span>
-        <span
+        <span class="footer_row"
           >© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
           TurboTax, ProConnect and Mint are registered trademarks of Intuit
           Inc.</span
         >
-        <span
+        <span class="footer_row"
           >Terms and conditions, features, support, pricing, and service options
           subject to change without notice.</span
         >
