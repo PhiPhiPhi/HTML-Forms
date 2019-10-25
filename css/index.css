@@ -4,10 +4,12 @@
   padding: 0;
   outline: 0;
 }
+
 body {
   background: #eceef1;
   font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .small_info_link {
   color: #0077c5;
   font-size: 12px;
@@ -92,6 +94,7 @@ main {
   outline: none;
   list-style: none;
 }
+
 #intuit_logo_container {
   padding: 20px 0;
   margin: 0 auto;
@@ -185,6 +188,7 @@ main {
   padding-top: 20px;
   text-align: center;
 }
+
 #form_header a {
   font-weight: 300;
   line-height: 1.2;
@@ -196,6 +200,7 @@ main {
 #form_header {
   padding-bottom: 20px;
 }
+
 label {
   font-weight: 400;
   color: #404040;
@@ -211,6 +216,7 @@ label {
   min-width: 160px;
   height: 34px;
 }
+
 input {
   border: 1px solid #c1c5c8;
   border-radius: 3px;
